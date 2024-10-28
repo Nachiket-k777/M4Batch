@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.crm.Listeners.Vtiger_Listneres"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Functional_Testing.EnterValue_in_SearchTextfield"/>
+      <class name="Functional_Testing.Verify_Application_Url"/>
+      <class name="Functional_Testing.Vtiger_Login"/>
+      <class name="Functional_Testing.Click_All_Elements_Of_MasterTab"/>
+      <class name="Functional_Testing.Select_SingleValue_From_DropDownMenu_SearchTextfield"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
